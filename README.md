@@ -1,5 +1,14 @@
 # Kitchen Puppet Hierawriter
 
+## DEPRECATION NOTICE
+
+**This functionality has now been integrated upstream into kitchen-puppet
+(https://github.com/neillturner/kitchen-puppet/commit/f858e0918a2c8c193b2e3697d7f25fa0507103b7).
+Please use it instead. The gem will be yanked from Rubygems soon.**
+
+
+## Description
+
 Adds (hiera) YAML file generation
 to [kitchen-puppet](https://github.com/neillturner/kitchen-puppet),
 the [puppet](https://puppetlabs.com) [test-kitchen](https://kitchen.ci)

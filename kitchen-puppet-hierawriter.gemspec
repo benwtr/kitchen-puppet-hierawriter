@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['benwtr']
   spec.email         = ['ben@g.megatron.org']
 
-  spec.summary       = 'YAML generator addon for the puppet test-kitchen provisioner'
+  spec.summary       = '(DEPRECATED, has been integrated upstream!) YAML generator addon for the puppet test-kitchen provisioner'
   spec.homepage      = 'https://github.com/benwtr/kitchen-puppet-hierawriter'
   spec.license       = 'MIT'
 
