@@ -51,6 +51,7 @@ driver:
   name: vagrant
 
 provisioner:
+  #name: puppet_apply
   name: puppet_hierawriter_apply
   manifests_path: /repository/puppet_repo/manifests
   modules_path: /repository/puppet_repo/modules-mycompany
@@ -86,8 +87,8 @@ logstash_servers: []
     - puppetdb
 ```
 
-- It will overwrite any existing Hiera YAML files with the same name (on the
-  guest), not merge.
+It will overwrite any existing Hiera YAML files with the same name (on the
+guest), not merge.
 
 
 ## Contributing
